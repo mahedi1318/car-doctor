@@ -9,19 +9,19 @@ const Navbar = () => {
     let optionLink = (
         <>
             <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink className="inter_font text-[16px] font-semibold" to="/">Home</NavLink>
             </li>
             <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink className="inter_font text-[16px] font-semibold" to="/about">About</NavLink>
             </li>
             <li>
-                <NavLink to="/service">Service</NavLink>
+                <NavLink className="inter_font text-[16px] font-semibold" to="/service">Service</NavLink>
             </li>
             <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink className="inter_font text-[16px] font-semibold" to="/blog">Blog</NavLink>
             </li>
             <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink className="inter_font text-[16px] font-semibold" to="/contact">Contact</NavLink>
             </li>
         </>
     )
@@ -60,10 +60,10 @@ const Navbar = () => {
                 {optionLink}
             </ul>
         </div>
-        <div className="navbar-end space-x-5">
+        <div className="navbar-end space-x-5 cursor-pointer">
             <span className='text-[25px]'><HiOutlineShoppingBag /></span>
             <span className='text-[30px]'><IoIosSearch /></span>
-            <a className="btn btn-md border-car-primary text-car-primary rounded-none hover:bg-car-primary hover:text-[#fff] duration-500 transition-all">Appointment</a>
+            <Link to="" className="btn btn-md border-car-primary text-car-primary rounded-none hover:bg-car-primary hover:text-[#fff] duration-500 transition-all">Appointment</Link>
         </div>
         </div>
     </div>

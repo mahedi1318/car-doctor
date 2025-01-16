@@ -25,7 +25,7 @@ const Hero = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 6500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -39,7 +39,7 @@ const Hero = () => {
         <SwiperSlide>
             <div className="relative h-[700px]">
                 <img src={heroImg2} alt="" />
-                <div className="bg-[rgba(0,0,0,0.5)] w-full h-full absolute top-0 left-0 text-left   flex items-center">
+                <div className="bg-[rgba(0,0,0,0.5)] w-full h-full absolute top-0 left-0 text-left flex items-center">
                     <div className="text-[#fff] container">
                         <h1 className='inter_font text-[60px] font-bold w-[600px] leading-[70px]'>Affordable Price For Car Servicing</h1>
                         <p className='inter_font text-[18px] font-normal w-[480px] mt-8 leading-8'>There are many variations of passages of  available,
@@ -57,12 +57,12 @@ const Hero = () => {
         <SwiperSlide>
             <div className="relative h-[700px]">
                 <img src={heroImg1} alt="" />
-                <div className="bg-[rgba(0,0,0,0.5)] w-full h-full absolute top-0 left-0 text-left   flex items-center">
+                <div className="bg-[rgba(0,0,0,0.5)] w-full h-full absolute top-0 left-0 flex items-center">
                     <div className="text-[#fff] container">
-                        <h1 className='inter_font text-[60px] font-bold w-[600px] leading-[70px]'>Affordable Price For Car Servicing</h1>
-                        <p className='inter_font text-[18px] font-normal w-[480px] mt-8 leading-8'>There are many variations of passages of  available,
+                        <h1 className='inter_font text-[60px] font-bold w-[600px] leading-[70px] m-auto'>Affordable Price For Car Servicing</h1>
+                        <p className='inter_font text-[18px] font-normal w-[480px] mt-6 leading-8 m-auto'>There are many variations of passages of  available,
                          but the majority have suffered alteration in some form</p>
-                         <div className="space-x-5 mt-7">
+                         <div className="space-x-5 mt-9">
                          <Link to="" className="inter_font text-[18px] font-semibold btn btn-md bg-transparent border-car-info hover:border-car-primary text-car-info hover:bg-car-primary
                           hover:text-[#fff] duration-500 transition-all rounded-md">Discover More</Link>
                          <Link to="" className="inter_font text-[18px] font-semibold btn btn-md bg-transparent border-car-info hover:border-car-primary text-car-info hover:bg-car-primary
