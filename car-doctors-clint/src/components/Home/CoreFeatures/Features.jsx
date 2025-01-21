@@ -1,6 +1,4 @@
-import React from 'react'
 import image1 from "../../../assets/images/feature/f-1.png"
-import image2 from "../../../assets/images/feature/f-2.png"
 import image3 from "../../../assets/images/feature/f-3.png"
 import image4 from "../../../assets/images/feature/f-4.png"
 import image5 from "../../../assets/images/feature/f-5.png"
@@ -47,7 +45,7 @@ const Features = () => {
         <div className="text-center">
             <h4 className='inter_font text-[20px] font-bold text-car-primary'>Core Features</h4>
             <h2 className='inter_font text-[45px] font-bold'>Why Choose Us</h2>
-            <p className='inter_font text-[16px] font-normal capitalize w-[700px] m-auto leading-7 mt-3'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p className='inter_font text-[16px] font-normal capitalize w-[700px] m-auto leading-7 mt-3'>the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. </p>
         </div>
         <div className="grid grid-cols-6 gap-6 mt-8 text-center">
                 {coreData?.map((item, index)=>(
