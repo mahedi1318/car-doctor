@@ -61,6 +61,8 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="navbar-end space-x-5 cursor-pointer">
+            <Link className='btn' to="/login">Login</Link>
+            <Link className='btn' to="/register">Register</Link>
             <span className='text-[25px]'><HiOutlineShoppingBag /></span>
             <span className='text-[30px]'><IoIosSearch /></span>
             <Link to="" className="btn btn-md border-car-primary text-car-primary rounded-none hover:bg-car-primary hover:text-[#fff] duration-500 transition-all">Appointment</Link>

@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         <div className="grid grid-cols-6 gap-6 mt-8 text-center">
                 {coreData?.map((item, index)=>(
-                    <div key={index.id} className="px-5 py-7 border border-[#E8E8E8] rounded-md hover:bg-car-primary duration-500 transition-all group">                    
+                    <div key={index} className="px-5 py-7 border border-[#E8E8E8] rounded-md hover:bg-car-primary duration-500 transition-all group">                    
                         <img className='m-auto mb-5 group-hover:bg-car-info duration-500 transition-all' src={item.image} alt="" />
                         <span className='inter_font text-[18px] font-bold text-[#444] group-hover:text-[#fff] duration-500 transition-all'>Expert Team</span>
                     </div>
